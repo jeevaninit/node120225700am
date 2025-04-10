@@ -10,9 +10,9 @@ console.log("Server started 4500....");
 })
 
 
-/* app.get('/home',(req,res)=>{
+ app.get('/home',(req,res)=>{
 res.send("Hello am from get test info....");
-}) */
+}) 
 
  app.get('/home',(req,res)=>{
     db.getMobiles()
